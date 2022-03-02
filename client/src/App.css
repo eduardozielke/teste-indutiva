@@ -1,0 +1,20 @@
+.notLoad {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-main);
+  }
+  
+  .loading {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #c9c9c9;
+    border-left-color: #045bb1;
+    border-radius: 50%;
+    animation: Loading 1s linear infinite;
+  }
+  
+  @keyframes Loading {
+    to {transform: rotate(360deg);}
+  }
